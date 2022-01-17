@@ -12,7 +12,7 @@ Den første af disse fejlede på problemer med at konvertere SQL's DateTime form
 
 Jeg ville have elsket at have haft tid til at teste at CRUD metoderne virker (Create/Insert, Read, Update, Delete) ved at lave nogle veldokumenterede unit tests. Arrange, Act, Assert. I mange forskellige kompleksitetsgrader og kombinationer. I do know how, I did not have the time. It is important. And it is currently missing. As it is, og uden rent faktisk virkelig at have testet det, så er jeg rimeligvis sikker på at min kode er (tilnærmelsesvist) korrekt. Men ja. 
 
-## Vannilla SQL vs. more modern approaches
+## Vanilla SQL vs. more modern approaches
 
 I dette tilfælde gik jeg med en fremgangsmåde baserende på at skrive godt gamle SQL queries i string-format direkte ind i koden. As such, så ville jeg have foretrukket at arbejde med mere moderne alternativer, såsom LINQ og/eller extension methods, som tillader det nærmest at kode direkte i databasen og uden nogensinde virkelig at skrive en linje SQL. Omend LINQ har nogle ligheder. 
 Endnu et alternativ, og min personlige klare favorit, er MS's nyeste tiltag - the Code-First approach Entity Framework Core, gathering all of the best features of all worlds. However, it was arguably way overkill for the scope of this exercise, as it takes some time setting up (correctly). 
