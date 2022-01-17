@@ -14,7 +14,7 @@ Jeg ville have elsket at have haft tid til at teste at CRUD metoderne virker (Cr
 
 ## Vanilla SQL vs. more modern approaches
 
-I dette tilfælde gik jeg med en fremgangsmåde baserende på at skrive godt gamle SQL queries i string-format direkte ind i koden. As such, så ville jeg have foretrukket at arbejde med mere moderne alternativer, såsom LINQ og/eller extension methods, som tillader det nærmest at kode direkte i databasen og uden nogensinde virkelig at skrive en linje SQL. Omend LINQ har nogle ligheder. 
+I dette tilfælde gik jeg med en fremgangsmåde baseret på at skrive gode gamle SQL queries i string-format direkte ind i koden. As such, så ville jeg have foretrukket at arbejde med mere moderne alternativer, såsom LINQ og/eller extension methods, som tillader det nærmest at kode direkte i databasen og uden nogensinde virkelig at skrive en linje SQL. Omend LINQ har nogle ligheder. 
 Endnu et alternativ, og min personlige klare favorit, er MS's nyeste tiltag - the Code-First approach Entity Framework Core, gathering all of the best features of all worlds. However, it was arguably way overkill for the scope of this exercise, as it takes some time setting up (correctly). 
 
 ## Overtænkning, normalisering/normal-former og billige løsninger..
