@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kodeopgaveFiskeristyrelse", "kodeopgaveFiskeristyrelse.csproj", "{F60C0A67-45CE-4210-A60A-4F109173E5AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F60C0A67-45CE-4210-A60A-4F109173E5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F60C0A67-45CE-4210-A60A-4F109173E5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F60C0A67-45CE-4210-A60A-4F109173E5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F60C0A67-45CE-4210-A60A-4F109173E5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20581D87-CFA0-4CE0-AEF0-F119D98A7EFA}
+	EndGlobalSection
+EndGlobal
