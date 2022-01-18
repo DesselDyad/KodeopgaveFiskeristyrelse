@@ -5,6 +5,7 @@
 Jeg nåede at implementere de fleste funktionelle krav - det eneste jeg ikke virkelig blev færdigt med var
  * at være i stand til at definere specifikke tidsrum og vise de entrie's som falder ind i disse
  * at være i stand til at sortere baseret på f.eks. bestemte arter eller lokationer etc. 
+ * MS SQL Server - et af de tekniske krav var at man skulle bruge denne. Grundet tekniske problemer så jeg mig tvunget til i stedet at benytte mig af en anden løsning. 
 
 Den første af disse fejlede på problemer med at konvertere SQL's DateTime format og C#'s/Windows Form's DateTime format korrekt frem og tilbage og bruge det til at lave sammenligninger i databasen (på trods af mange mange forskellige og ihærdige forsøg). Den anden ville i og for sig have været let nok, men jeg løb tør for tid. SQL databaser understøtter en syntaks som tillader det at sende flere forskellige querie's afsted samtidigt, ved kun at åbne én forbindelse til databasen/serveren (performance!!!). Det kunne f.eks. have været at hente "lister" med diverse forskellige distinct'e arter, lokationer etc etc. Disse kunne så igen være blevet brugt til at populate dropdown-menuer i brugergrænseoverfladen på dynamisk vis, pogrammatically. Not really incredibly difficult, but I ran out of time. 
 
